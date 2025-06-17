@@ -1,0 +1,10 @@
+# Python caches
+__pycache__/
+
+# Playwright results
+frontend/test-results/
+
+# Node modules
+frontend/node_modules/
+frontend/.next/
+
