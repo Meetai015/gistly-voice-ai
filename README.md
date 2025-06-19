@@ -4,12 +4,15 @@ This repository contains a minimal voice AI application consisting of a Next.js 
 
 ## Frontend
 The `frontend` directory holds a TypeScript based Next.js project. Tailwind CSS is configured for styling and the project is ready for integrating the [shadcn/ui](https://ui.shadcn.com) component library.
+The homepage now includes a simple voice recorder that sends transcripts to the backend.
 
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+Set `BACKEND_URL` in an `.env` file if the FastAPI server runs on a different host or port.
+
 
 Run tests:
 ```bash
